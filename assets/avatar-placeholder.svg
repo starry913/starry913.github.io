@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">二次元头像占位图</title>
+  <desc id="desc">蓝绿色背景上的二次元人物头像，可替换为真实头像</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d5e8e3"/>
+      <stop offset="1" stop-color="#89aeb5"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#293f58"/>
+      <stop offset="1" stop-color="#172536"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="670" cy="160" r="100" fill="#f5f0df" opacity=".62"/>
+  <path d="M135 1000c22-195 130-292 265-292s243 97 265 292z" fill="url(#shirt)"/>
+  <path d="M273 650c8-61 29-106 127-106s119 45 127 106c-44 54-84 79-127 79s-83-25-127-79z" fill="#e9ad8d"/>
+  <path d="M245 440c0-171 91-269 203-269s203 98 203 269c0 119-74 227-203 227S245 559 245 440z" fill="#f1b795"/>
+  <path d="M230 422c-20-166 42-291 188-308 137-16 239 72 233 235-4 84-24 130-46 159-5-77-18-139-69-187-62 48-161 75-261 43-2 39-9 83-25 127-14-22-17-40-20-69z" fill="#263b57"/>
+  <path d="M292 350c40-67 105-89 174-91 58-2 111 18 150 61-65-13-137-4-201 29-44 23-83 31-123 1z" fill="#385776"/>
+  <ellipse cx="350" cy="438" rx="16" ry="22" fill="#26313c"/>
+  <ellipse cx="529" cy="438" rx="16" ry="22" fill="#26313c"/>
+  <path d="M405 507c27 18 56 18 83 0" fill="none" stroke="#a45d62" stroke-width="9" stroke-linecap="round"/>
+  <path d="M326 385c26-19 57-20 82-2M473 383c26-18 57-17 82 2" fill="none" stroke="#263b57" stroke-width="11" stroke-linecap="round"/>
+  <path d="M339 720l61 83 61-83 61 280H278z" fill="#f4f0e5"/>
+  <path d="M400 803l-35 197h70z" fill="#b66d7e" opacity=".75"/>
+  <text x="400" y="930" fill="#d5e8e3" font-family="Arial, sans-serif" font-size="22" letter-spacing="6" text-anchor="middle">LQY</text>
+</svg>
