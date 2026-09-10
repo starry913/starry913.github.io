@@ -145,9 +145,9 @@ document.querySelectorAll('.project-toggle').forEach(button => {
 
 const timelineContent = [
   ['01', 'THE BEGINNING', '进入北航，开始建立自己的坐标', '2024 年进入软件工程专业，在课程、学生工作和志愿服务中探索适合自己的方向。'],
-  ['02', 'EXPLORATION', '在竞赛与实践中验证能力', '从蓝桥杯、码蹄杯到百度之星和睿抗竞赛，在持续训练中积累程序设计与解决问题的经验。'],
-  ['03', 'FOCUS', '把兴趣转向科研与真实问题', '参与河南电网小样本数据集研究，系统学习数据集构建、流形增强和生成对抗网络等方法。'],
-  ['04', 'NOW', '关注科研智能体与自动化修复', '正在推进 Orbit 科研智能体和自动化修复智能体定位轨迹分析，在工程实现与研究分析之间建立连接。']
+  ['02', 'EXPLORATION', '在旅途中收集小惊喜', '去海边看日落，逛老街找小店，把每次出发都变成轻松的记忆。'],
+  ['03', 'TEAM UP', '和朋友组队开黑', '王者峡谷里练辅助、打配合，输了就复盘，赢了就约下一局。'],
+  ['04', 'NOW', '继续把日子过得有趣', '计划去更多没去过的地方，也继续记录游戏和生活里的小片段。']
 ];
 document.querySelectorAll('.timeline-point').forEach(button => {
   button.addEventListener('click', () => {
@@ -164,3 +164,6 @@ document.querySelectorAll('.social-links a').forEach(link => link.addEventListen
 }));
 
 refreshIcons();
+
+
+document.querySelectorAll('.restricted-action').forEach(button => button.addEventListener('click', () => showToast('你的权限不足，暂时无法查看或下载')));
