@@ -7,7 +7,6 @@ Based on the official Minimal Light compiled HTML theme (CC0). This is a buildle
 - `assets/css/minimal-light.css`: original theme CSS with external font requests removed.
 - `assets/css/custom.css`: responsive customizations.
 - `assets/img/`: original figures from the supplied research slides and avatar from the existing homepage.
-- `assets/files/qiyang-li-cv.pdf`: supplied CV.
 
 ## Preview
 
@@ -21,6 +20,6 @@ The academic homepage replaces the previous lifestyle website. The previous vers
 
 ## Updating
 
-Edit both index.html and zh.html when changing facts. Replace the PDF to update CV. Keep review statuses explicit. Do not add acceptance claims, paper links, supervisors, or organizations without verified information.
+Edit both index.html and zh.html when changing facts. Keep review statuses explicit. Do not add acceptance claims, paper links, supervisors, or organizations without verified information.
 
 The site retains the upstream LICENSE-Minimal-Light notice. Project figures and personal materials retain their original rights.
